@@ -21,6 +21,8 @@
 Este projeto faz parte de uma desafio da plataforma **FrontEnd Mentor**. 
 A aplicação consiste basicamente de uma página com um card interativo. Aqui está o [link](https://www.frontendmentor.io/challenges/faq-accordion-wyfFdeBwBz) para a página do desafio. 
 
+Clique [aqui](https://deluxe-parfait-b9bb0d.netlify.app/) para conferir como ficou a aplicação rodando no servidor da Netlify.  
+
 
 ## 🎨 Layout
 
