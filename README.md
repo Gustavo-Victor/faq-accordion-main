@@ -19,7 +19,7 @@
 ## ❓ Sobre
 
 Este projeto faz parte de uma desafio da plataforma **FrontEnd Mentor**. 
-A aplicação consiste basicamente de uma página com um card interativo. Aqui está o [link](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS) para a página do desafio. 
+A aplicação consiste basicamente de uma página com um card interativo. Aqui está o [link](https://www.frontendmentor.io/challenges/faq-accordion-wyfFdeBwBz) para a página do desafio. 
 
 
 ## 🎨 Layout
