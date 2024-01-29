@@ -1,0 +1,28 @@
+@use "../../styles/variables.scss" as variables; 
+
+.attribution {
+    width: 100%;
+    padding: 0 2rem; 
+    font-size: 15px;
+    text-align: center;
+    margin: -50px auto 1rem; 
+    color: variables.$darkPurple; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 24px;
+    gap: 0.4rem; 
+
+    a {
+        color: variables.$grayishPurple;
+        
+        &:hover {
+            color: variables.$brightPurple;
+        }
+    }
+
+    @media only screen and (max-width: 285px) {  
+        font-size: 14px;
+    }
+}

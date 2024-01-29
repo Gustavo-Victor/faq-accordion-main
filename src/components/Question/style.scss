@@ -1,0 +1,47 @@
+@use "../../styles/variables.scss" as variables;
+
+.faq-question {
+    cursor: pointer;
+
+
+    h2 {
+        font-size: 18px;
+        line-height: 24px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin-bottom: 1.5rem;
+        font-weight: 700;
+    }
+
+    p {
+        margin: 0 0 1.5rem 0; 
+        font-size: 15px; 
+        color: variables.$grayishPurple; 
+        display: none;
+        line-height: 26px;
+        font-weight: 400;
+    }
+
+
+    border-bottom: 1px solid variables.$lightPink; 
+
+    &:hover {
+        h2 {
+            color: variables.$brightPurple; 
+        }
+    }
+
+    &.active {
+        p {
+            display: block; 
+        }
+    }
+
+
+    @media only screen and (max-width: 285px) {
+        h2 {
+            font-size: 17px;
+        }
+    }
+}

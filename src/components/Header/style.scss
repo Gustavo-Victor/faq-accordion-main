@@ -1,0 +1,13 @@
+.header {
+    background-image: url('../../assets/images/background-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+    color: white; 
+    min-height: 40vh;
+    
+    @media only screen and (max-width: 450px) {
+        background-image: url('../../assets/images/background-mobile.svg'); 
+    }
+}
+
